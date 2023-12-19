@@ -48,7 +48,6 @@
   color: rgb(18, 18, 129);
 }
 
-/* Медиа-запрос для адаптивности */
 @media (max-width: 768px) {
   .resume-header {
     flex-direction: column;

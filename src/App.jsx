@@ -5,7 +5,7 @@ import './App.css';
 import AuthorInfo from './AuthorInfo'; 
 import ProjectsList from './ProjectsList';
 import ResumeHeader from './Header';
-// import './me.jpg';
+
 
 const App = () => {
   return (
@@ -20,6 +20,10 @@ const App = () => {
       </div>
       <AuthorInfo />
       <ProjectsList />
+      <a href="/CV-Anna.pdf" download="cv-gritsuk.pdf">
+        Распечатать PDF
+      </a>
+
     </div>
   );
 };

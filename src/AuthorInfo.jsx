@@ -30,13 +30,8 @@ const AuthorInfo = () => {
       
         <h3 className="author-info__title">English:</h3>
         <div>
-          {/* <h5 className="author-info__subtitle">English</h5> */}
           <p>Upper-Intermediate. <br></br> Technical English.</p>
         </div>
-        {/* <div>
-          <h5 className="author-info__subtitle">Russian</h5>
-          <p>Native</p>
-        </div> */}
       </div>
     </div>
   );

@@ -43,9 +43,6 @@ p {
   margin-bottom: 3px;
 }
 
-/* Дополнение для адаптивности */
-
-/* Медиа-запрос для экранов шириной до 768px */
 @media (max-width: 768px) {
   .author-info {
     flex-direction: column;
