@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* App.css */
+
+.app {
+  font-family: Verdana, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.author-info {
+  margin-bottom: 15px;
+}
+
+.aboutME {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutME_info {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.aboutME-info_text {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+.photo {
+  width: 180px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  line-height: 1;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+@media (max-width: 768px) {
+  .aboutME {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutME_info {
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .photo {
+    width: 120px;
+    height: 100px;
+  }
+}
